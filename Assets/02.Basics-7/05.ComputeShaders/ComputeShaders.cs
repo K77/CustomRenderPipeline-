@@ -63,7 +63,7 @@ public class ComputeShaders : MonoBehaviour
     private void Update()
     {
         UpdateFunctionOnGPU();
-        Graphics.DrawMeshInstancedProcedural(mesh, 0, material);
+        // Graphics.DrawMeshInstancedProcedural(mesh, 0, material);
     }
 }
 
